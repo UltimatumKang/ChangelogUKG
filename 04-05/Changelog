@@ -1,0 +1,205 @@
+ChangelogUKG
+============
+
+Changelog of UKG (Xylon)
+---------------------------------------------------------------------------
+android_packages_apps_Settings:
+--------------------------------------------------------------------------
+--Jul 05, 2013--//////////////////////////////////////////////////////////////
+ 
+Update PG …
+VlikeBanana authored
+ 
+Update of some French Translations
+AirOne70 authored
+ 
+Settings: privacy Guard enhance app logic …
+daxxmax committed
+ 
+--Jul 04, 2013--////////////////////////////////////////////////////////////
+ 
+One more derp
+daxxmax authored
+ 
+Added some French translations.
+AirOne70
+ 
+Fix derps
+daxxmax authored
+ 
+Introduce Privacy Guard Manager …
+daxxmax committed
+-------------------------------------------------------------
+android_frameworks_base
+------------------------------------------------------------
+--Jul 05, 2013--/////////////////////////////////////////////////////////
+HALO: keep apps in recents …
+daxxmax committed
+ 
+Don't enable GPS if the requesting app is blacklisted. …
+daxxmax committed
+ 
+Profile: Filter on NETWORK_STATE_CHANGED instead of SUPPLICANT_STATE_… …
+daxxmax committed
+ 
+Frameworks: privacy guard fix UI freeze …
+daxxmax committed
+ 
+HALO: keep apps in recents …
+daxxmax committed
+ 
+Final fix for recent apps orientation …
+daxxmax committed
+ 
+HALO: keep apps in recents …
+daxxmax committed
+ 
+--Jul 04, 2013--///////////////////////////////////////////////////////////
+ 
+Allow multiple emulated storages at the same time. …
+daxxmax committed
+ 
+Lockscreen : Reference correct layout …
+daxxmax committed
+ 
+update SystemUI's proguard.flags …
+daxxmax committed
+ 
+Revert the GB for RAM bar, this causes FC for recents …
+daxxmax authored
+--------------------------------------------------------------------------
+android_packages_apps_uTool
+--------------------------------------------------------------------------
+Jul 05, 2013///////////////////////////////////////////////////////////////
+ 
+Update of some French Translations
+AirOne70 authored
+ 
+Remove transparency for Left Chevron
+AirOne70 authored
+ 
+Update of some Simplified Chinese translations …
+AirOne70 authored
+ 
+Jul 04, 2013////////////////////////////////////////////////////////////
+ 
+Use custom ActionBar background
+daxxmax authored
+------------------------------------------------------------------------
+android_kernel_htc_msm8960-3.4 /
+------------------------------------------------------------------------
+Jul 05, 2013///////////////////////////////////////////////////////////////////
+ 
+Merge tag 'v3.4.52' of git://git.kernel.org/pub/scm/linux/kernel/git/… …
+aznrice authored
+ 
+Merge tag 'v3.4.51' of git://git.kernel.org/pub/scm/linux/kernel/git/… …
+aznrice authored
+ 
+fixup! fixup! Merge branch 'cm-10.1' of https://github.com/CyanogenMo… …
+aznrice authored
+ 
+fixup! Merge branch 'cm-10.1' of https://github.com/CyanogenMod/andro… …
+aznrice authored
+ 
+Jul 04, 2013////////////////////////////////////////////////////////////////////////
+ 
+Merge tag 'v3.4.50' of git://git.kernel.org/pub/scm/linux/kernel/git/… …
+aznrice authored
+ 
+Merge branch 'cm-10.1' of https://github.com/CyanogenMod/android_kern… …
+aznrice authored
+ 
+Merge tag 'AU_LINUX_ANDROID_JB_2.5.04.02.02.040.384' into cm-10.1 …
+intervigilium authored
+ 
+msm: HTC: fighter: issue reset as first display_on command …
+intervigilium committed
+ 
+msm: HTC: fighter: update rpm regulator parameters …
+intervigilium committed
+ 
+msm: HTC: fighter: disable OTG and HDMI …
+intervigilium committed
+ 
+msm: HTC: 8960: enable standalone power collapse …
+intervigilium authored
+ 
+msm: HTC: fighter: associate display_off commands with correct panels …
+intervigilium committed
+ 
+msm: HTC: fighter: panel comments cleanup …
+intervigilium committed
+ 
+msm: HTC: elite: use ATT 3.18.502 Synaptics sensor ID …
+intervigilium authored
+ 
+msm: HTC: elite: enable flashlight driver …
+intervigilium authored
+ 
+msm: HTC: elite: updated synaptics calibration data from 3.17 RUU. …
+intervigilium committed
+ 
+msm: HTC: jet: updated synaptics calibration data from 3.16 RUU. …
+intervigilium committed
+ 
+msm: HTC: display: update panel parameters for vsync …
+intervigilium authored
+ 
+msm: HTC: elite: remove unused panel …
+intervigilium authored
+ 
+msm: HTC: jet: remove unused panel …
+intervigilium authored
+ 
+msm: HTC: display: use Linux kernel style formatting …
+intervigilium authored
+ 
+HACK: ARM: disable sleeping while atomic warning in do_signal …
+intervigilium committed
+----------------------------------------------------------------------------------
+android_vendor_ukg
+----------------------------------------------------------------------------------
+Jul 04, 2013/////////////////////////////////
+ 
+Add Evita Overlays
+aznrice authored
+ 
+-----------------------------------------------------------------------------
+android_device_htc_evita
+------------------------------------------------------------------------------
+Jul 05, 2013/////////////////////////////
+evita: set fast dormancy rule
+aznrice authored
+ 
+-----------------------------------------------------------------------------
+/android
+----------------------------------------------------------------------------
+Jul 05, 2013/////////////////////////////
+default.xm    - Add Media-Caf
+aznrice authored
+ 
+-----------------------------------------------------------------------------
+android_prebuilts_gcc_linux-x86_arm_linaro-4.8 /
+------------------------------------------------------------------------------
+Jul 05, 2013/////////////////////////////
+first commit by aznrice
+ 
+------------------------------------------------------------------------------
+android_device_lge_mako
+----------------------------------------------------------------------------
+Jul 04, 2013/////////////////////////////////
+Set internal storage as primary
+daxxmax authored
+ 
+-------------------------------------------------------------------------
+device_htc_s4-common /
+------------------------------------------------------------------------
+Jul 05, 2013/////////////////////////////
+s4-common: use non-low latency audio_policy.conf
+s4-common: camera: remove leftover m7 params
+s4-common: update post-boot script
+s4-common: Add releasetools for assertions
+s4-common: Add releasetools for assertions
+s4-common: use non-low latency audio_policy.conf
+aznrice committed
