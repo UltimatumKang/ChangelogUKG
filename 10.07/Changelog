@@ -1,257 +1,144 @@
 Ultimatum Project name: android_external_skia
-  â€¢ghepeu - Fimg2d: set fimg.isFilter in SkDraw::drawBitmap
-  â€¢ghepeu - Fimg2d3x: fix icon scaling issue with acceleration enabled
-  â€¢Daniel Hillenbrand - skia: exynos4: add support for fimg2d3x
-  â€¢Daniel Hillenbrand - exynos4: fimg2d acceleration
-  â€¢Henrik Smiding - Add optimized S32A_D565_Opaque_Dither blitter.
-  â€¢Henrik Smiding - Add optimization of Skia S32A_Blend blitter
-  â€¢Henrik Smiding - Add optimization of Skia S32A_Opaque blitter
-  â€¢Henrik Smiding - Modify sample buffer size for larger displays.
-  â€¢Henrik Smiding - Add optimized S16_opaque_D32_nofilter_DX blitter.
-  â€¢Henrik Smiding - Add shader for Clamp_S32_Opaque_D32_nofilter_DX.
-  â€¢Henrik Smiding - Add shader for Repeat_SI8_opaque_D32_filter_DX.
-  â€¢Henrik Smiding - Add shader for Clamp_SI8_opaque_D32_filter_DX.
-  â€¢Henrik Smiding - Add shader for Clamp_S32_Opaque_D32_filter_DX.
-  â€¢Hieu Phan - Revert "Neon optimized implementation of S16_opaque_D32_nofilter_DX"
-
- Project name: android
-  â€¢Hieu Phan - derp..
+  * ghepeu - Fimg2d: set fimg.isFilter in SkDraw::drawBitmap
+  * ghepeu - Fimg2d3x: fix icon scaling issue with acceleration enabled
+  * Daniel Hillenbrand - skia: exynos4: add support for fimg2d3x
+  * Daniel Hillenbrand - exynos4: fimg2d acceleration
+  * Henrik Smiding - Add optimized S32A_D565_Opaque_Dither blitter.
+  * Henrik Smiding - Add optimization of Skia S32A_Blend blitter
+  * Henrik Smiding - Add optimization of Skia S32A_Opaque blitter
+  * Henrik Smiding - Modify sample buffer size for larger displays.
+  * Henrik Smiding - Add optimized S16_opaque_D32_nofilter_DX blitter.
+  * Henrik Smiding - Add shader for Clamp_S32_Opaque_D32_nofilter_DX.
+  * Henrik Smiding - Add shader for Repeat_SI8_opaque_D32_filter_DX.
+  * Henrik Smiding - Add shader for Clamp_SI8_opaque_D32_filter_DX.
+  * Henrik Smiding - Add shader for Clamp_S32_Opaque_D32_filter_DX.
+  * Hieu Phan - Revert "Neon optimized implementation of S16_opaque_D32_nofilter_DX"
 
  Project name: av
-  â€¢Krishnankutty Kolathappilly - audioflinger: Do not apply effect on multichannel content
-  â€¢Jitendra Singh Naruka - stagefright: support multiple tunnel instances
-  â€¢Krishnankutty Kolathappilly - audioflinger: Fix crash on delete effectchain from google music app
-  â€¢Krishnankutty Kolathappilly - frameworks/av: Fix race condition during LPA/tunnel playback
-  â€¢Robert Jones - libstagefright: Additional UDC software decoder support patches
-  â€¢Robert Jones - libstagefright: Add Dolby UDC decoder support
+  * Krishnankutty Kolathappilly - audioflinger: Do not apply effect on multichannel content
+  * Jitendra Singh Naruka - stagefright: support multiple tunnel instances
+  * Krishnankutty Kolathappilly - audioflinger: Fix crash on delete effectchain from google music app
+  * Krishnankutty Kolathappilly - frameworks/av: Fix race condition during LPA/tunnel playback
+  * Robert Jones - libstagefright: Additional UDC software decoder support patches
+  * Robert Jones - libstagefright: Add Dolby UDC decoder support
 
 Ultimatum Project name: android_frameworks_base
-  â€¢Daniel Hillenbrand - FileUtils: add method to get UUID of a volume
-  â€¢Danny Baumann - Fix requery behaviour of MemoryCursor.
-  â€¢Koushik Dutta - Notification cancellation fixes: Permission should only allow cancellation of other app notifications, not enqueueing. Fix checkapi breakage.
-  â€¢Nick Kralevich - libdrm: fix bad strncpy / snprintf calls
-  â€¢Selim Gurun - Add a delimiter between scheme and host
-  â€¢Christopher Tate - Ensure install-during-restore is like install-then-restore
-  â€¢Christopher Tate - Validate restored file paths against their nominal domain
-  â€¢Daniel MM - Merge branch 'jellybean' of https://github.com/UltimatumKang/android_frameworks_base into jellybean
+  * Daniel Hillenbrand - FileUtils: add method to get UUID of a volume
+  * Danny Baumann - Fix requery behaviour of MemoryCursor.
+  * Koushik Dutta - Notification cancellation fixes: Permission should only allow cancellation of other app notifications, not enqueueing. Fix checkapi breakage.
+  * Nick Kralevich - libdrm: fix bad strncpy / snprintf calls
+  * Selim Gurun - Add a delimiter between scheme and host
+  * Christopher Tate - Ensure install-during-restore is like install-then-restore
+  * Christopher Tate - Validate restored file paths against their nominal domain
 
  Project name: frameworks_opt_telephony
-  â€¢Daniel MM - Merge branch 'cm-10.1' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into jellybean
-  â€¢Shareef Ali - Merge "CallTracker: Add additional check for pendingMO to verify that a dial is happening and we are expecting a call to appear when repeated polling of GET_CURRENT_CALLS." into cm-10.1
-  â€¢Shareef Ali - Merge "Revert "CallTracker: Add delay to reduce cpu load"" into cm-10.1
-  â€¢Shareef Ali - Merge "PhoneProxy: when using v6 or greater ril make sure current phone type isnt GSM" into cm-10.1
-
- Project name: android
-  â€¢Hieu Phan - derp..
+  * Daniel MM - Merge branch 'cm-10.1' of git://github.com/CyanogenMod/android_frameworks_opt_telephony into jellybean
+  * Shareef Ali - Merge "CallTracker: Add additional check for pendingMO to verify that a dial is happening and we are expecting a call to appear when repeated polling of GET_CURRENT_CALLS." into cm-10.1
+  * Shareef Ali - Merge "Revert "CallTracker: Add delay to reduce cpu load"" into cm-10.1
+  * Shareef Ali - Merge "PhoneProxy: when using v6 or greater ril make sure current phone type isnt GSM" into cm-10.1
 
  Project name: HALO
-  â€¢SferaDev - Merge pull request #35 from alteredlikeness/jellybean
-  â€¢alteredlikeness - spacing derp
-  â€¢alteredlikeness - update RU string (Notes header)
-  â€¢alteredlikeness - Merge remote-tracking branch 'pa/jellybean' into jellybean
-  â€¢alteredlikeness - Revert "Update Russian translation (add xml-ru)"
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
+  * SferaDev - Merge pull request #35 from alteredlikeness/jellybean
+  * alteredlikeness - spacing derp
+  * alteredlikeness - update RU string (Notes header)
+  * alteredlikeness - Merge remote-tracking branch 'pa/jellybean' into jellybean
+  * alteredlikeness - Revert "Update Russian translation (add xml-ru)"
+  * SferaDev - Add missing string to Halo))) Notes
 
 Ultimatum Project name: android_packages_apps_Settings
-  â€¢Danny Baumann - Let accessibility feature instructions scroll.
+  * Danny Baumann - Let accessibility feature instructions scroll.
 
 Ultimatum Project name: android_packages_apps_uTool
-  â€¢Erwan Finot - Added some French translations.
+  * Erwan Finot - Added some French translations.
 
  Project name: mako
-  â€¢anarkia1976 - board-mako-sound: Disable DEBUG print for Amp
-  â€¢Gokhan Moral - wakelock: main_wake_lock fix by tungstwenty
-  â€¢Gokhan Moral - wakelock: (tungstwenty's implementation) expanded deleted wakelocks to let us see which wakelock they were before they got deleted.
-  â€¢anarkia1976 - slub.c: Remove PAGE_ALLOC_COSTLY_ORDER - +3% boost
-  â€¢anarkia1976 - bfq-iosched: Tuning for SSD
-  â€¢MyungJoo Ham - PM / QoS: Introduce new classes: DMA-Throughput and DVFS-Latency
-  â€¢Arianna Avanzini - block, bfq: add Early Queue Merge (EQM) to BFQ-v6r2 for 3.4.0
-  â€¢Arianna Avanzini - block: introduce the BFQ-v6r2 I/O sched for 3.4
-  â€¢Cong Wang - ping: always initialize ->sin6_scope_id and ->sin6_flowinfo
-  â€¢Lorenzo Colitti - net: ipv6: Add IPv6 support to the ping socket.
-  â€¢Hannes Frederic Sowa - ipv6: introdcue __ipv6_addr_needs_scope_id and ipv6_iface_scope_id helper functions
-  â€¢Venkat Gopalakrishnan - include: linux: Export santized ioprio header
-  â€¢Steve Muckle - netfilter: fix ipv6_find_hdr usage
-  â€¢Steve Muckle - netfilter: xt_qtaguid: do not look at TCP_TIME_WAIT socket
-  â€¢Deva Ramasubramanian - switch: Reset device's drvdata before destroying it
-  â€¢Fred Fettinger - base: sync: increase size of sync_timeline name
-  â€¢Asutosh Das - mmc: sd: Set the card removed if card detect fails
-  â€¢anarkia1976 - transport.c: Fix warning: 'midQ' may be used uninitialized in this function [-Wmaybe-uninitialized]
-  â€¢Viresh Kumar - cpufreq: Manage only online cpus
+  * anarkia1976 - board-mako-sound: Disable DEBUG print for Amp
+  * Gokhan Moral - wakelock: main_wake_lock fix by tungstwenty
+  * Gokhan Moral - wakelock: (tungstwenty's implementation) expanded deleted wakelocks to let us see which wakelock they were before they got deleted.
+  * anarkia1976 - slub.c: Remove PAGE_ALLOC_COSTLY_ORDER - +3% boost
+  * anarkia1976 - bfq-iosched: Tuning for SSD
+  * MyungJoo Ham - PM / QoS: Introduce new classes: DMA-Throughput and DVFS-Latency
+  * Arianna Avanzini - block, bfq: add Early Queue Merge (EQM) to BFQ-v6r2 for 3.4.0
+  * Arianna Avanzini - block: introduce the BFQ-v6r2 I/O sched for 3.4
+  * Cong Wang - ping: always initialize ->sin6_scope_id and ->sin6_flowinfo
+  * Lorenzo Colitti - net: ipv6: Add IPv6 support to the ping socket.
+  * Hannes Frederic Sowa - ipv6: introdcue __ipv6_addr_needs_scope_id and ipv6_iface_scope_id helper functions
+  * Venkat Gopalakrishnan - include: linux: Export santized ioprio header
+  * Steve Muckle - netfilter: fix ipv6_find_hdr usage
+  * Steve Muckle - netfilter: xt_qtaguid: do not look at TCP_TIME_WAIT socket
+  * Deva Ramasubramanian - switch: Reset device's drvdata before destroying it
+  * Fred Fettinger - base: sync: increase size of sync_timeline name
+  * Asutosh Das - mmc: sd: Set the card removed if card detect fails
+  * anarkia1976 - transport.c: Fix warning: 'midQ' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  * Viresh Kumar - cpufreq: Manage only online cpus
 
 CyanogenMod Project name: android_kernel_samsung_jf
-  â€¢Shareef Ali - MFA Merge:
+  * Shareef Ali - MFA Merge:
 
 Ultimatum Project name: android_kernel_samsung_smdk4412
-  â€¢DAGr8 - Update drivers/video/samsung_extdisp/s3cfb_extdsp.h
-  â€¢DAGr8 - Update drivers/media/video/exynos/fimc-lite/fimc-lite-core.h
+  * DAGr8 - Update drivers/video/samsung_extdisp/s3cfb_extdsp.h
+  * DAGr8 - Update drivers/media/video/exynos/fimc-lite/fimc-lite-core.h
 
 CyanogenMod Project name: android_kernel_samsung_msm8660-common
-  â€¢Manoj Rao - msm: msm_fb: remove mmio access through mmap
-  â€¢Dave Carey - msm8660-common: cifs: use offsetof macro
-  â€¢David Ferguson - Merge "msm8660-common: clean up uninitialized variables" into cm-10.1
-  â€¢David Ferguson - Merge "msm8660-common: i2c: fix Kconfig error for INPUT_YAS529_POSITION" into cm-10.1
-  â€¢Dave Carey - msm8660-common: clean up uninitialized variables
-  â€¢Dave Carey - msm8660-common: i2c: fix Kconfig error for INPUT_YAS529_POSITION
-  â€¢Mike Grissom - Merge "cpufreq: Avoid using smp_processor_id() in preemptible context" into cm-10.1
-  â€¢Mike Grissom - Merge "cpufreq: ondemand: Fix kernel warning in cpufreq_governor_dbs" into cm-10.1
-  â€¢Mike Grissom - Merge "msm: cpufreq: make the gov stop part fully atomic" into cm-10.1
-  â€¢Mike Grissom - Merge "cpufreq: Fix optimal_freq logic on ramp down" into cm-10.1
-  â€¢Mike Grissom - Merge "cpufreq: ondemand: Fix store_powersave_bias() race with hotplug" into cm-10.1
-  â€¢Mike Grissom - Merge "cpufreq: ondemand: Fix locking issue in store_powersave_bias" into cm-10.1
-  â€¢Mike Grissom - Merge "ondemand: Add support to consider other cpu load when scaling frequencies" into cm-10.1
-  â€¢Mike Grissom - Merge "Revert "cpufreq: notify avg load for short sampling_rate"" into cm-10.1
-  â€¢Dave Carey - drivers: misc: remove dos formatting from a2220.c
+  * Manoj Rao - msm: msm_fb: remove mmio access through mmap
+  * Dave Carey - msm8660-common: cifs: use offsetof macro
+  * David Ferguson - Merge "msm8660-common: clean up uninitialized variables" into cm-10.1
+  * David Ferguson - Merge "msm8660-common: i2c: fix Kconfig error for INPUT_YAS529_POSITION" into cm-10.1
+  * Dave Carey - msm8660-common: clean up uninitialized variables
+  * Dave Carey - msm8660-common: i2c: fix Kconfig error for INPUT_YAS529_POSITION
+  * Mike Grissom - Merge "cpufreq: Avoid using smp_processor_id() in preemptible context" into cm-10.1
+  * Mike Grissom - Merge "cpufreq: ondemand: Fix kernel warning in cpufreq_governor_dbs" into cm-10.1
+  * Mike Grissom - Merge "msm: cpufreq: make the gov stop part fully atomic" into cm-10.1
+  * Mike Grissom - Merge "cpufreq: Fix optimal_freq logic on ramp down" into cm-10.1
+  * Mike Grissom - Merge "cpufreq: ondemand: Fix store_powersave_bias() race with hotplug" into cm-10.1
+  * Mike Grissom - Merge "cpufreq: ondemand: Fix locking issue in store_powersave_bias" into cm-10.1
+  * Mike Grissom - Merge "ondemand: Add support to consider other cpu load when scaling frequencies" into cm-10.1
+  * Mike Grissom - Merge "Revert "cpufreq: notify avg load for short sampling_rate"" into cm-10.1
+  * Dave Carey - drivers: misc: remove dos formatting from a2220.c
 
  Project name: android_vendor_cm
-  â€¢Hieu - The Ultimatum Project
+  * Hieu - The Ultimatum Project
 
  Project name: android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8
-  â€¢Paul Beeler - HEAD is now at b738428 Merge remote-tracking branch 'gnu/gcc-4_8-branch' into 4.8.2
+  * Paul Beeler - HEAD is now at b738428 Merge remote-tracking branch 'gnu/gcc-4_8-branch' into 4.8.2
 
  Project name: media
-  â€¢Maheshwar Ajja - mm-video: vidc: Synchronize ION alloc and free APIs
-  â€¢Maheshwar Ajja - vidc: vdec: Open secure display after video driver opened
-  â€¢Deepak Verma - mm-video: vdec: Initialize fd values to avoid memory corruption.
-  â€¢Maheshwar Ajja - mm-video: vidc: Setprop command support for uncache buffers
-  â€¢Surajit Podder - DashPlayer: Don't queue EOS in flushing state
+  * Maheshwar Ajja - mm-video: vidc: Synchronize ION alloc and free APIs
+  * Maheshwar Ajja - vidc: vdec: Open secure display after video driver opened
+  * Deepak Verma - mm-video: vdec: Initialize fd values to avoid memory corruption.
+  * Maheshwar Ajja - mm-video: vidc: Setprop command support for uncache buffers
+  * Surajit Podder - DashPlayer: Don't queue EOS in flushing state
 
  Project name: audio
-  â€¢Hieu Phan - Merge tag 'AU_LINUX_ANDROID_JB_2.5.04.02.02.040.410' of git://codeaurora.org/quic/la/platform/hardware/qcom/audio into HEAD
+  * Hieu Phan - Merge tag 'AU_LINUX_ANDROID_JB_2.5.04.02.02.040.410' of git://codeaurora.org/quic/la/platform/hardware/qcom/audio into HEAD
 
 CyanogenMod Project name: android_hardware_samsung
-  â€¢Steve Kondik - samsung: Remove multiple inclusion of RIL
-  â€¢Daniel Hillenbrand - Merge "samsung: move ril client out of exynos4" into cm-10.1
-  â€¢Daniel Hillenbrand - samsung: libril: some code cleanup
-  â€¢Daniel Hillenbrand - samsung: libril: cleanup debugging code
+  * Steve Kondik - samsung: Remove multiple inclusion of RIL
+  * Daniel Hillenbrand - Merge "samsung: move ril client out of exynos4" into cm-10.1
+  * Daniel Hillenbrand - samsung: libril: some code cleanup
+  * Daniel Hillenbrand - samsung: libril: cleanup debugging code
 
 Ultimatum Project name: android_device_htc_evita
-  â€¢Hieu - Fix Spacing
-  â€¢Hieu Phan - The Ultimatum Project
-  â€¢Hieu Phan - Revert "evita: Menu key for now"
+  * Hieu - Fix Spacing
+  * Hieu Phan - The Ultimatum Project
+  * Hieu Phan - Revert "evita: Menu key for now"
 
 CyanogenMod Project name: hardware_qcom_power
-  â€¢Hieu - Merge pull request #1 from UltimatumKang/cm-10.1-dev-ukg
-  â€¢Hieu - msm8960-common: Enable lpa.decode because tunnel audio is dependent on it.
-  â€¢Hieu - The Ultimatum Project
-  â€¢Hieu Phan - power: change sampling_rate_screen_on 80000
-  â€¢faux123 - power: simplify PowerHAL operations using sysfs_write instead of posix write()
-  â€¢faux123 - powerHAL: remove touchboost error log spam :p
-  â€¢faux123 - initial powerHAL mod for intellidemand on Nexus 4
-  â€¢Iliyan Malchev - clean up and pass touch boost on interactive-on
-  â€¢Iliyan Malchev - initial msm8960 power HAL implementation
+  * Hieu - msm8960-common: Enable lpa.decode because tunnel audio is dependent on it.
+  * Hieu - The Ultimatum Project
+  * Hieu Phan - power: change sampling_rate_screen_on 80000
+  * faux123 - power: simplify PowerHAL operations using sysfs_write instead of posix write()
+  * faux123 - powerHAL: remove touchboost error log spam :p
+  * faux123 - initial powerHAL mod for intellidemand on Nexus 4
+  * Iliyan Malchev - clean up and pass touch boost on interactive-on
+  * Iliyan Malchev - initial msm8960 power HAL implementation
 
 Ultimatum Project name: device_htc_s4-common
-  â€¢Hieu - s4-common: Update post-boot script with more SOC Power Management
-  â€¢Hieu Phan - s4-common: Use SM Toolchain instead
-  â€¢Hieu Phan - The Ultimatum Project
+  * Hieu - s4-common: Update post-boot script with more SOC Power Management
+  * Hieu Phan - s4-common: Use SM Toolchain instead
+  * Hieu Phan - The Ultimatum Project
 
 Ultimatum Project name: android_libcore
-  â€¢Hieu Phan - Merge branch 'jellybean' of https://github.com/UltimatumKang/android_libcore into jellybean
-  â€¢Geremy Condra - Remove support for duplicate file entries
-  â€¢Steve Kondik - libcore: Better Enum fix for JDK 7
-
- Project name: av
-  â€¢Krishnankutty Kolathappilly - audioflinger: Do not apply effect on multichannel content
-  â€¢Jitendra Singh Naruka - stagefright: support multiple tunnel instances
-  â€¢Krishnankutty Kolathappilly - audioflinger: Fix crash on delete effectchain from google music app
-  â€¢Krishnankutty Kolathappilly - frameworks/av: Fix race condition during LPA/tunnel playback
-  â€¢Robert Jones - libstagefright: Additional UDC software decoder support patches
-  â€¢Robert Jones - libstagefright: Add Dolby UDC decoder support
-
-Ultimatum Project name: android_frameworks_base
-  â€¢Daniel Hillenbrand - FileUtils: add method to get UUID of a volume
-  â€¢Danny Baumann - Fix requery behaviour of MemoryCursor.
-
- Project name: HALO
-  â€¢SferaDev - Merge pull request #35 from alteredlikeness/jellybean
-  â€¢alteredlikeness - spacing derp
-  â€¢alteredlikeness - update RU string (Notes header)
-  â€¢alteredlikeness - Merge remote-tracking branch 'pa/jellybean' into jellybean
-  â€¢alteredlikeness - Revert "Update Russian translation (add xml-ru)"
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-
-Ultimatum Project name: android_packages_apps_Settings
-  â€¢Danny Baumann - Let accessibility feature instructions scroll.
-
- Project name: mako
-  â€¢anarkia1976 - board-mako-sound: Disable DEBUG print for Amp
-  â€¢Gokhan Moral - wakelock: main_wake_lock fix by tungstwenty
-  â€¢Gokhan Moral - wakelock: (tungstwenty's implementation) expanded deleted wakelocks to let us see which wakelock they were before they got deleted.
-  â€¢anarkia1976 - slub.c: Remove PAGE_ALLOC_COSTLY_ORDER - +3% boost
-  â€¢anarkia1976 - bfq-iosched: Tuning for SSD
-  â€¢MyungJoo Ham - PM / QoS: Introduce new classes: DMA-Throughput and DVFS-Latency
-  â€¢Arianna Avanzini - block, bfq: add Early Queue Merge (EQM) to BFQ-v6r2 for 3.4.0
-  â€¢Arianna Avanzini - block: introduce the BFQ-v6r2 I/O sched for 3.4
-  â€¢Cong Wang - ping: always initialize ->sin6_scope_id and ->sin6_flowinfo
-  â€¢Lorenzo Colitti - net: ipv6: Add IPv6 support to the ping socket.
-  â€¢Hannes Frederic Sowa - ipv6: introdcue __ipv6_addr_needs_scope_id and ipv6_iface_scope_id helper functions
-
-CyanogenMod Project name: android_kernel_samsung_msm8660-common
-  â€¢Manoj Rao - msm: msm_fb: remove mmio access through mmap
-
- Project name: media
-  â€¢Maheshwar Ajja - mm-video: vidc: Synchronize ION alloc and free APIs
-  â€¢Maheshwar Ajja - vidc: vdec: Open secure display after video driver opened
-  â€¢Deepak Verma - mm-video: vdec: Initialize fd values to avoid memory corruption.
-  â€¢Maheshwar Ajja - mm-video: vidc: Setprop command support for uncache buffers
-  â€¢Surajit Podder - DashPlayer: Don't queue EOS in flushing state
-
-CyanogenMod Project name: hardware_qcom_power
-  â€¢Hieu - Merge pull request #1 from UltimatumKang/cm-10.1-dev-ukg
-  â€¢Hieu - msm8960-common: Enable lpa.decode because tunnel audio is dependent on it.
-
-Ultimatum Project name: device_htc_s4-common
-  â€¢Hieu - s4-common: Update post-boot script with more SOC Power Management
-
-Ultimatum Project name: android_system_core
-  â€¢Hieu Phan - Revert "Revert "init.rc: Create /storage mountpoint so Dalvik can mark as slave in zygotes""
-
- Project name: av
-  â€¢Krishnankutty Kolathappilly - audioflinger: Do not apply effect on multichannel content
-  â€¢Jitendra Singh Naruka - stagefright: support multiple tunnel instances
-  â€¢Krishnankutty Kolathappilly - audioflinger: Fix crash on delete effectchain from google music app
-  â€¢Krishnankutty Kolathappilly - frameworks/av: Fix race condition during LPA/tunnel playback
-  â€¢Robert Jones - libstagefright: Additional UDC software decoder support patches
-  â€¢Robert Jones - libstagefright: Add Dolby UDC decoder support
-
-Ultimatum Project name: android_frameworks_base
-  â€¢Daniel Hillenbrand - FileUtils: add method to get UUID of a volume
-  â€¢Danny Baumann - Fix requery behaviour of MemoryCursor.
-
- Project name: HALO
-  â€¢SferaDev - Merge pull request #35 from alteredlikeness/jellybean
-  â€¢alteredlikeness - spacing derp
-  â€¢alteredlikeness - update RU string (Notes header)
-  â€¢alteredlikeness - Merge remote-tracking branch 'pa/jellybean' into jellybean
-  â€¢alteredlikeness - Revert "Update Russian translation (add xml-ru)"
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-  â€¢SferaDev - Add missing string to Halo))) Notes
-
-Ultimatum Project name: android_packages_apps_Settings
-  â€¢Danny Baumann - Let accessibility feature instructions scroll.
-
-CyanogenMod Project name: android_kernel_samsung_msm8660-common
-  â€¢Manoj Rao - msm: msm_fb: remove mmio access through mmap
-
- Project name: media
-  â€¢Maheshwar Ajja - mm-video: vidc: Synchronize ION alloc and free APIs
-  â€¢Maheshwar Ajja - vidc: vdec: Open secure display after video driver opened
-  â€¢Deepak Verma - mm-video: vdec: Initialize fd values to avoid memory corruption.
-  â€¢Maheshwar Ajja - mm-video: vidc: Setprop command support for uncache buffers
-  â€¢Surajit Podder - DashPlayer: Don't queue EOS in flushing state
-
-CyanogenMod Project name: hardware_qcom_power
-  â€¢Hieu - Merge pull request #1 from UltimatumKang/cm-10.1-dev-ukg
-  â€¢Hieu - msm8960-common: Enable lpa.decode because tunnel audio is dependent on it.
-
-Ultimatum Project name: device_htc_s4-common
-  â€¢Hieu - s4-common: Update post-boot script with more SOC Power Management
+  * Hieu Phan - Merge branch 'jellybean' of https://github.com/UltimatumKang/android_libcore into jellybean
+  * Geremy Condra - Remove support for duplicate file entries
+  * Steve Kondik - libcore: Better Enum fix for JDK 7
